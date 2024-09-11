@@ -7,7 +7,7 @@ public class Fila {
 		
 	}
 	
-	public static synchronized Fila getInstancia() {
+	public static Fila getInstancia() {
 		if (instanciaUnica == null) {
 			instanciaUnica = new Fila();
 		}
